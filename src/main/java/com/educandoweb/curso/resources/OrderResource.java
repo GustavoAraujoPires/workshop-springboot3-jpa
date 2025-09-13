@@ -13,7 +13,7 @@ import com.educandoweb.curso.entities.Order;
 import com.educandoweb.curso.services.OrderService;
 
 @RestController
-@RequestMapping(value = "/Orders")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 
 	@Autowired
